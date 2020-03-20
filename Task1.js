@@ -17,7 +17,7 @@
         let maximumAmountOfMedium;
 
 
-        let arr=inputFruits.value.split(' '); //Convert data to array
+        let arr=inputFruits.value.trim().split(' '); //Convert data to array
 
         sum=arr.pop(); //Separate the final weight
         arr.sort((a,b)=>a-b); //Sort an array
