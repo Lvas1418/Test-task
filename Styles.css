@@ -1,0 +1,23 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: darkslateblue;
+}
+.task {
+    width: 100%;
+    height: 300px;
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article {
+    width: 700px;
+    height: 250px;
+    background-color: lavender;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#resultFruits {
+    visibility: hidden;
+}
